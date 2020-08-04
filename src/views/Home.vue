@@ -148,6 +148,7 @@ export default {
       arr: [],
       show: false,
       app: false,
+      pla:''
     };
   },
   methods: {
