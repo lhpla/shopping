@@ -1,0 +1,215 @@
+2020-07-25 00:38:21,754 ERROR 15588 nodejs.ClusterClientNoResponseError: client no response in 2042433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15588
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-25 14:42:00,501 ERROR 5448 nodejs.ClusterClientNoResponseError: client no response in 305689ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5448
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-25 16:53:26,516 ERROR 5448 nodejs.ClusterClientNoResponseError: client no response in 7265812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5448
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-25 20:21:41,866 ERROR 5448 nodejs.ClusterClientNoResponseError: client no response in 12495166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5448
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:24:57,297 ERROR 23868 [-/127.0.0.1/-/16ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 23868
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:26:02,247 ERROR 23868 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 23868
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:26:09,242 ERROR 23868 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 23868
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:29:24,980 ERROR 23868 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 23868
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:31:00,373 ERROR 23868 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 23868
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:33:04,193 ERROR 24672 [-/127.0.0.1/-/40ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 24672
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:33:33,655 ERROR 24672 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 24672
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:34:30,445 ERROR 24108 [-/127.0.0.1/-/40ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 24108
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:36:17,395 ERROR 17156 [-/127.0.0.1/-/42ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 17156
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:40:16,553 ERROR 27060 [-/127.0.0.1/-/39ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 27060
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 17:54:09,866 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 204932ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 19:10:16,640 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 3946500ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 21:22:49,149 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 7271854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 21:35:19,520 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 749421ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 21:57:57,527 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 657844ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-26 22:23:02,647 ERROR 23736 nodejs.ClusterClientNoResponseError: client no response in 784456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23736
+hostname: LAPTOP-Q8E1FL5T
+

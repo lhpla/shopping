@@ -1,0 +1,361 @@
+2020-07-31 10:25:28,977 ERROR 11008 [-/127.0.0.1/-/10ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 10:25:44,766 ERROR 11008 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 10:29:10,282 ERROR 11008 [-/127.0.0.1/-/7ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\28067\Desktop\shopping\server\app\public\avatar\159616255026255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\28067\Desktop\shopping\server\app\public\avatar\159616255026255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\28067\\Desktop\\shopping\\server\\app\\public\\avatar\\159616255026255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png"
+name: "ENOENTError"
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 10:30:19,655 ERROR 11008 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\28067\Desktop\shopping\server\app\public\avatar\159616261964255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\28067\Desktop\shopping\server\app\public\avatar\159616261964255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\28067\\Desktop\\shopping\\server\\app\\public\\avatar\\159616261964255e2_aa6l3-kb_ff5f168b6a017cb308ac32e1d7.png"
+name: "ENOENTError"
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 11:22:48,220 ERROR 11008 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 13:42:29,137 ERROR 11008 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 13:42:31,208 ERROR 11008 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 13:42:32,550 ERROR 11008 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 13:42:59,549 ERROR 11008 [-/127.0.0.1/-/0ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\28067\Desktop\shopping\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 16:53:10,165 ERROR 11008 [-/127.0.0.1/-/13ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 16:53:37,373 ERROR 11008 [-/127.0.0.1/-/16ms POST /v1/order] nodejs.CastError: Cast to string failed for value "[
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"[\n  '238bc2e023844769a6b67d9a4c04b2ea',\n  '24afea564e5248b5a2bc59da95f09911'\n]\""
+kind: "string"
+value: ["238bc2e023844769a6b67d9a4c04b2ea","24afea564e5248b5a2bc59da95f09911"]
+path: "cid"
+reason: null
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 16:53:45,812 ERROR 11008 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.CastError: Cast to string failed for value "[
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"[\n  '238bc2e023844769a6b67d9a4c04b2ea',\n  '24afea564e5248b5a2bc59da95f09911'\n]\""
+kind: "string"
+value: ["238bc2e023844769a6b67d9a4c04b2ea","24afea564e5248b5a2bc59da95f09911"]
+path: "cid"
+reason: null
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 16:59:00,042 ERROR 11008 [-/127.0.0.1/-/15ms POST /v1/order] nodejs.CastError: Cast to string failed for value "[
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"[\n  '238bc2e023844769a6b67d9a4c04b2ea',\n  '24afea564e5248b5a2bc59da95f09911'\n]\""
+kind: "string"
+value: ["238bc2e023844769a6b67d9a4c04b2ea","24afea564e5248b5a2bc59da95f09911"]
+path: "cid"
+reason: null
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:00:09,684 ERROR 11008 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.CastError: Cast to string failed for value "[
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+  '238bc2e023844769a6b67d9a4c04b2ea',
+  '24afea564e5248b5a2bc59da95f09911'
+]" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\28067\Desktop\shopping\server\node_modules\_mongoose@5.9.25@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"[\n  '238bc2e023844769a6b67d9a4c04b2ea',\n  '24afea564e5248b5a2bc59da95f09911'\n]\""
+kind: "string"
+value: ["238bc2e023844769a6b67d9a4c04b2ea","24afea564e5248b5a2bc59da95f09911"]
+path: "cid"
+reason: null
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:00:36,062 ERROR 11008 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of null
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:04:37,600 ERROR 11008 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:06:09,841 ERROR 11008 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:06:51,978 ERROR 11008 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+
+2020-07-31 17:10:58,149 ERROR 11008 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\28067\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\28067\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\28067\Desktop\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\28067\Desktop\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\28067\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\28067\Desktop\shopping\server\node_modules\_egg@2.27.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11008
+hostname: LAPTOP-Q8E1FL5T
+

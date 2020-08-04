@@ -1,0 +1,40 @@
+2020-08-01 11:28:54,310 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 484647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 15:02:43,600 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 6909079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 17:27:30,746 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 5246472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 17:41:05,632 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 174450ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 23:50:50,294 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 4742845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+

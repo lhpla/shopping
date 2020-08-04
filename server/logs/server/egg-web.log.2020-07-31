@@ -1,0 +1,41 @@
+2020-07-31 00:00:01,016 INFO 4092 [egg-logrotator] app logger reload: got log-reload message
+2020-07-31 08:29:09,083 INFO 11008 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-31 08:29:09,138 INFO 11008 [egg-multipart] stream mode enable
+2020-07-31 08:29:09,799 INFO 11008 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-07-31 08:29:10,184 INFO 11008 [egg-static] starting static serve /public/ -> C:\Users\28067\Desktop\shopping\server\app\public
+2020-07-31 08:29:10,190 INFO 11008 [egg-security] use methodnoallow middleware
+2020-07-31 08:29:10,191 INFO 11008 [egg-security] use noopen middleware
+2020-07-31 08:29:10,193 INFO 11008 [egg-security] use nosniff middleware
+2020-07-31 08:29:10,193 INFO 11008 [egg-security] use xssProtection middleware
+2020-07-31 08:29:10,194 INFO 11008 [egg-security] use xframe middleware
+2020-07-31 08:29:10,195 INFO 11008 [egg-security] use dta middleware
+2020-07-31 08:29:10,195 INFO 11008 [egg-security] compose 6 middlewares into one security middleware
+2020-07-31 08:29:10,222 INFO 11008 [egg:core] dump config after load, 8ms
+2020-07-31 08:29:10,227 INFO 11008 [egg-mongoose] starting...
+2020-07-31 08:29:10,290 INFO 11008 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-07-31 08:29:10,298 INFO 11008 [egg-mongoose] instance[0] start successfully
+2020-07-31 08:29:10,301 INFO 11008 [egg-watcher:application] watcher start success
+2020-07-31 08:29:10,317 INFO 11008 [egg:core] dump config after ready, 10ms
+2020-07-31 13:36:28,514 WARN 11008 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-31 19:55:05,935 INFO 12016 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-31 19:55:05,971 INFO 12016 [egg-multipart] stream mode enable
+2020-07-31 19:55:06,597 INFO 12016 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-07-31 19:55:06,905 INFO 12016 [egg-static] starting static serve /public/ -> C:\Users\28067\Desktop\shopping\server\app\public
+2020-07-31 19:55:06,907 INFO 12016 [egg-security] use methodnoallow middleware
+2020-07-31 19:55:06,908 INFO 12016 [egg-security] use noopen middleware
+2020-07-31 19:55:06,909 INFO 12016 [egg-security] use nosniff middleware
+2020-07-31 19:55:06,910 INFO 12016 [egg-security] use xssProtection middleware
+2020-07-31 19:55:06,910 INFO 12016 [egg-security] use xframe middleware
+2020-07-31 19:55:06,915 INFO 12016 [egg-security] use dta middleware
+2020-07-31 19:55:06,915 INFO 12016 [egg-security] compose 6 middlewares into one security middleware
+2020-07-31 19:55:06,937 INFO 12016 [egg:core] dump config after load, 6ms
+2020-07-31 19:55:06,942 INFO 12016 [egg-mongoose] starting...
+2020-07-31 19:55:06,991 INFO 12016 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-07-31 19:55:06,999 INFO 12016 [egg-mongoose] instance[0] start successfully
+2020-07-31 19:55:07,006 INFO 12016 [egg-watcher:application] watcher start success
+2020-07-31 19:55:07,021 INFO 12016 [egg:core] dump config after ready, 10ms
+2020-07-31 20:57:51,562 WARN 12016 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-31 22:28:35,511 WARN 12016 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-01 00:00:00,073 INFO 12016 [egg-logrotator] clean all log before 31 days
+2020-08-01 00:00:01,030 INFO 12016 [egg-logrotator] broadcast log-reload
+2020-08-01 00:00:01,031 INFO 12016 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\common-error.log -> C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\common-error.log.2020-07-31","C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\server-web.log -> C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\server-web.log.2020-07-31","C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-web.log -> C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-web.log.2020-07-31","C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-schedule.log -> C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-schedule.log.2020-07-31","C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-agent.log -> C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server\\egg-agent.log.2020-07-31"]

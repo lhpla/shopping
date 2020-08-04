@@ -1,0 +1,51 @@
+2020-08-01 00:00:01,039 INFO 3104 [egg-logrotator] agent logger reload: got log-reload message
+2020-08-01 11:03:46,218 INFO 13028 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\28067\\Desktop\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-01 11:03:46,230 INFO 13028 [egg:core] dump config after load, 8ms
+2020-08-01 11:03:46,286 INFO 13028 [egg-watcher] Start watching: ["C:\\Users\\28067\\Desktop\\shopping\\server\\app","C:\\Users\\28067\\Desktop\\shopping\\server\\config","C:\\Users\\28067\\Desktop\\shopping\\server\\mocks","C:\\Users\\28067\\Desktop\\shopping\\server\\mocks_proxy","C:\\Users\\28067\\Desktop\\shopping\\server\\app.js"]
+2020-08-01 11:03:46,286 INFO 13028 [egg-watcher] Start watching: "C:\\Users\\28067\\Desktop\\shopping\\server\\app"
+2020-08-01 11:03:46,287 INFO 13028 [egg-watcher] Start watching: "C:\\Users\\28067\\Desktop\\shopping\\server\\config"
+2020-08-01 11:03:46,287 INFO 13028 [egg-watcher] Start watching: "C:\\Users\\28067\\Desktop\\shopping\\server\\mocks"
+2020-08-01 11:03:46,287 INFO 13028 [egg-watcher] Start watching: "C:\\Users\\28067\\Desktop\\shopping\\server\\mocks_proxy"
+2020-08-01 11:03:46,287 INFO 13028 [egg-watcher] Start watching: "C:\\Users\\28067\\Desktop\\shopping\\server\\app.js"
+2020-08-01 11:03:46,287 INFO 13028 [egg-watcher:agent] watcher start success
+2020-08-01 11:03:46,311 INFO 13028 [egg:core] dump config after ready, 12ms
+2020-08-01 11:28:54,352 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 484647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 15:02:44,165 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 6909079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 17:27:31,150 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 5246472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 17:41:06,160 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 174450ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
+2020-08-01 23:50:50,890 ERROR 13028 nodejs.ClusterClientNoResponseError: client no response in 4742845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\28067\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13028
+hostname: LAPTOP-Q8E1FL5T
+
